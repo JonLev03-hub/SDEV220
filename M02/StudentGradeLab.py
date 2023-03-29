@@ -20,12 +20,14 @@ while (1):
     try:
         grade = float(grade)
         if (grade >= 3.5):
-            print("The student has made it on the Dean List!")
+            print(
+                f"{student_firstname} {student_lastname} has made it on the Dean List!")
 
         if (grade >= 3.25):
-            print("The student has made Honor Roll!")
+            print(f"{student_firstname} {student_lastname} has made Honor Roll!")
         else:
-            print("The student has not made Honor Roll or the Deans List :(")
+            print(
+                f"{student_firstname} {student_lastname} has not made Honor Roll or the Deans List :(")
     except:
         print("That was not a valid input, Please enter the next student...")
 
