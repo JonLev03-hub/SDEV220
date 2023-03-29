@@ -2,7 +2,7 @@
 # StudentGradeLab.py
 # This program will allow users to input their last name and grade to see if they made the dean list or honor roll. Program ends with a name of "ZZZ"
 # Student_lastname will be a string that contains the current students last name
-# Student_firstname will be a string that contains the current students last name
+# Student_firstname will be a string that contains the current students first name
 # grade will contain the students grade as a float
 
 # a loop that will continue until a break statement occurs
